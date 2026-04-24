@@ -1,0 +1,18 @@
+humantype-pro/
+├── manifest.json
+├── background.js
+├── content.js
+├── injector.js
+├── popup/
+│   ├── popup.html
+│   ├── popup.js
+│   └── popup.css
+├── utils/
+│   ├── keystroke-engine.js
+│   ├── human-simulator.js
+│   └── cadmus-countermeasures.js
+├── icons/
+│   ├── icon16.png
+│   ├── icon48.png
+│   └── icon128.png
+└── README.md
