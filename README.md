@@ -167,17 +167,23 @@ HumanType Pro is completely private:
 ### File Structure
 
 humantype-pro/
-├── manifest.json # Extension configuration (Manifest V3)
-├── background.js # Service worker for message routing
-├── content.js # Content script bridge
-├── injector.js # MAIN world injector (core engine)
+├── manifest.json                 # Extension configuration
+├── background.js                 # Service worker
+├── content.js                    # Content script bridge
+├── injector.js                   # MAIN world engine
+├── generate-icons.html           # Icon generator
+├── utils/
+│   ├── keystroke-engine.js       # Event creation & dispatch
+│   ├── human-simulator.js        # Timing & behavior
+│   └── cadmus-countermeasures.js # Anti-detection
 ├── popup/
-│ ├── popup.html # Control panel UI
-│ ├── popup.js # UI logic and state management
-│ └── popup.css # Dark mode styling
-└── README.md # This file
-
-
+│   ├── popup.html                # Control panel
+│   ├── popup.js                  # UI logic
+│   └── popup.css                 # Styling
+└── icons/
+    ├── icon16.png
+    ├── icon48.png
+    └── icon128.png
 
 ### Permissions Explained
 
